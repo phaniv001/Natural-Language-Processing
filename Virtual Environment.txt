@@ -1,0 +1,16 @@
+conda create -n yourenvname python=x.x anaconda
+source activate yourenvname
+=======================================================
+conda create --name myenv
+conda create -n myenv python=3.9
+
+=======================================================
+conda create -n myenv python=3.9 
+activate myenv
+
+
+python -m venv env python=3.9
+
+========================================================
+pip3 freeze > requirements.txt
+
